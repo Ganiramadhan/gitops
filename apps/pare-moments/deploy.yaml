@@ -54,6 +54,8 @@ spec:
       labels:
         app: pare-moments
     spec:
+      imagePullSecrets:
+      - name: registry-ganipedia
       securityContext:
         runAsNonRoot: true
         runAsUser: 101    # nginx user di image alpine
