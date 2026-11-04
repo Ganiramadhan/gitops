@@ -64,7 +64,7 @@ spec:
           type: RuntimeDefault
       containers:
       - name: pare-moments
-        image: registry.ganipedia.com/pare-moments:3-91b5a7a
+        image: registry.ganipedia.com/pare-moments:4-4ff1ce8
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3305
