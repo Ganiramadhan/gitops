@@ -84,7 +84,7 @@ spec:
           type: RuntimeDefault
       containers:
       - name: api-saku-pay
-        image: registry.ganipedia.com/api-saku-pay:6-28b5840
+        image: registry.ganipedia.com/api-saku-pay:9-0ea1638
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 4000
